@@ -1,0 +1,52 @@
+{
+    "adjustments": {
+        "brightness": 0.0,
+        "contrast": 1.0,
+        "saturation": 1.0,
+        "hue": 0.0,
+        "gamma": 1.0,
+        "clahe": 0.0
+    },
+    "filters": [
+        [
+            "Sobel Edge Detection",
+            {
+                "ksize": 3,
+                "direction": "Magnitude"
+            }
+        ]
+    ],
+    "resize": {
+        "width": null,
+        "height": null,
+        "interp": 1,
+        "crop_x": 0,
+        "crop_y": 0,
+        "crop_w": 0,
+        "crop_h": 0,
+        "rotate": 0.0,
+        "flip": "None"
+    },
+    "analytics": {
+        "shape": [
+            960,
+            1280,
+            3
+        ],
+        "dtype": "uint8",
+        "size": 3686400,
+        "mean_r": 51.106898600260415,
+        "std_r": 40.30221407777459,
+        "mean_g": 51.106898600260415,
+        "std_g": 40.30221407777459,
+        "mean_b": 51.106898600260415,
+        "std_b": 40.30221407777459,
+        "min_intensity": 0,
+        "max_intensity": 255,
+        "mean_intensity": 51.106898600260415,
+        "std_intensity": 40.30221407777459,
+        "mean_hue": 0.0,
+        "mean_sat": 0.0,
+        "mean_val": 51.106898600260415
+    }
+}
